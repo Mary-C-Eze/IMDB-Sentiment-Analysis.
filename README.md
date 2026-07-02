@@ -81,4 +81,5 @@ The system is designed to support automated filtering and categorization of movi
 ---
 
 ## Author
-AI/ML Project Portfolio
+Mary Eze
+
