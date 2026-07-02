@@ -7,7 +7,7 @@ The goal is to build a model that classifies IMDB movie reviews as either **posi
 
 The system is designed to support automated filtering and categorization of movie reviews.
 
----
+
 
 ## Objective
 - Build a sentiment classification model for movie reviews
@@ -15,7 +15,7 @@ The system is designed to support automated filtering and categorization of movi
 - Compare multiple machine learning approaches
 - Evaluate generalization on unseen custom reviews
 
----
+
 
 ## Dataset
 - Source: IMDB movie reviews dataset (polarity labeled)
@@ -24,7 +24,7 @@ The system is designed to support automated filtering and categorization of movi
   - `pos`: sentiment label (0 = negative, 1 = positive)
   - `ds_part`: train/test split indicator
 
----
+
 
 ## Workflow
 
@@ -46,7 +46,6 @@ The system is designed to support automated filtering and categorization of movi
 - ROC AUC
 - Average Precision Score (APS)
 
----
 
 ## Results
 
@@ -56,14 +55,13 @@ The system is designed to support automated filtering and categorization of movi
 | spaCy + TF-IDF + Logistic Regression | Similar performance, no major gain |
 | spaCy + TF-IDF + LightGBM | Slightly lower but meets requirement |
 
----
+
 
 ## Key Insight
 - Simpler models (TF-IDF + Logistic Regression) can outperform more complex approaches.
 - Sparse matrix representation is critical for memory efficiency in NLP pipelines.
 - Converting TF-IDF to dense format caused memory crashes during training.
 
----
 
 ## Tech Stack
 - Python
@@ -74,7 +72,6 @@ The system is designed to support automated filtering and categorization of movi
 - TF-IDF Vectorization
 - NLP / Machine Learning
 
----
 
 ## Key Learnings
 - Importance of sparse matrix handling in large NLP datasets
